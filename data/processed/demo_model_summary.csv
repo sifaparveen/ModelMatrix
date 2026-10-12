@@ -1,0 +1,4 @@
+model,questions_evaluated,valid_predictions,correct_answers,accuracy,accuracy_percent
+Model A,4,4,2,0.5,50.0
+Model B,4,4,0,0.0,0.0
+Model C,4,4,1,0.25,25.0

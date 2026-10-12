@@ -1,0 +1,2 @@
+model,questions_evaluated,valid_predictions,correct_answers,accuracy,accuracy_percent
+First-Option Baseline,100,100,27,0.27,27.0

@@ -1,0 +1,17 @@
+{
+  "source_dataset": "allenai/ai2_arc",
+  "configuration": "ARC-Challenge",
+  "source_split": "test",
+  "requested_sample_size": 100,
+  "valid_rows": 100,
+  "unique_question_ids": 100,
+  "unique_questions": 100,
+  "missing_values_before_cleanup": {
+    "question_id": 0,
+    "question": 0,
+    "choices_json": 0,
+    "correct_answer_label": 0,
+    "correct_answer_text": 0
+  },
+  "output_file": "E:\\Sifa\\MPR\\ModelMatrix\\data\\processed\\arc_challenge_100.csv"
+}
