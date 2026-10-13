@@ -5,11 +5,11 @@ from pathlib import Path
 import pandas as pd
 
 
-BASE_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATASET_PATH = (
-    BASE_DIR / "data" / "processed" / "arc_challenge_100.csv"
+    PROJECT_ROOT / "data" / "processed" / "arc_challenge_100.csv"
 )
-OUTPUT_DIR = BASE_DIR / "data" / "processed"
+OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

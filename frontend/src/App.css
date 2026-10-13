@@ -1,0 +1,14 @@
+#root { min-height: 100vh; }
+
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.site-main { width: min(1120px, calc(100% - 40px)); margin: 0 auto; flex: 1; }
+.site-header, .site-footer { padding: 22px max(20px, calc((100% - 1120px) / 2)); }
+.site-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e7e9f0; }
+.brand { font-weight: 750; text-decoration: none; letter-spacing: -0.04em; }
+.site-nav { display: flex; gap: 24px; }
+.site-nav a { text-decoration: none; color: #626b7c; font-size: 0.94rem; }
+.hero { padding: 100px 0 72px; max-width: 760px; }
+.eyebrow { color: #635bff; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; font-size: .76rem; }
+.hero h1 { font-size: clamp(2.5rem, 7vw, 5rem); line-height: 1.02; letter-spacing: -.06em; margin: 18px 0; }
+.hero p { color: #626b7c; font-size: 1.15rem; line-height: 1.7; max-width: 620px; }
+.site-footer { color: #737c8b; border-top: 1px solid #e7e9f0; font-size: .9rem; }

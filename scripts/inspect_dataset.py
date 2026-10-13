@@ -1,9 +1,11 @@
 import json
+from pathlib import Path
+
 import pandas as pd
 
-df = pd.read_csv(
-    "data/processed/arc_challenge_100.csv"
-)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATASET_PATH = PROJECT_ROOT / "data" / "processed" / "arc_challenge_100.csv"
+df = pd.read_csv(DATASET_PATH)
 
 print("Dataset shape:", df.shape)
 print("\nMissing values:")
