@@ -1,3 +1,4 @@
+import React from 'react';
 export default function PromptInput({ value = '', onChange, onSubmit }) {
   return (
     <form onSubmit={(event) => { event.preventDefault(); onSubmit?.(value); }}>

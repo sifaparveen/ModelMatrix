@@ -1,3 +1,4 @@
+import React from 'react';
 import ScoreCard from '../components/ScoreCard.jsx';
 
 export default function Benchmark() {

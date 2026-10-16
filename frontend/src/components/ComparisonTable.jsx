@@ -1,3 +1,4 @@
+import React from 'react';
 export default function ComparisonTable({ models = [] }) {
   return (
     <div className="comparison-table-wrap">
