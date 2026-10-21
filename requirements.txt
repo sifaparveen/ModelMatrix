@@ -1,2 +1,6 @@
 datasets
 pandas
+fastapi
+uvicorn
+python-dotenv
+google-genai
